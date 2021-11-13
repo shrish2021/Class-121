@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <center>
+    <h3 class='btn-primary heading'>Real Time Image Identification App
+    <hr>
+    <center>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 heading_div">
+  We're using MobileNet as the model.
+  <br>
+  <div class="btn heading_div2">
+    MobileNet is trained to <b>1,300,000+ objects</b>.
+  </div>
+  </div>
+</center>
+<br>
+</h3>
+
+<br><br>
+
+<p class="btn btn-success result_para_tag">Result: I think that's a <span id="object">(Uh oh, you haven't shown an item yet)</span>!</p>
+<br><br>
+<p class="btn btn-success result_para_tag">Accuracy: If I am not correct, the accuracy is <span id="accuracy">(Uh oh, you haven't shown an item yet)</span> out of 1!</p>
+</center>
+
+<div class="copy_right_footer">
+  Developed By: Shrish Adhikari
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
